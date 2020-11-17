@@ -1,5 +1,4 @@
 <?php
-require_once "webmastconfig.php";
 require_once "config.php";
 require_once "Client.php";
 if(! isset ( $_SESSION['user'] )) {
