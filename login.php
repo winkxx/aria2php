@@ -1,5 +1,4 @@
 <?php
-require_once "webmastconfig.php";
 require_once "config.php";
 if(isset($_GET['logout'])){
   unset($_SESSION['user']);
